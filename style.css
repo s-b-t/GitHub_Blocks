@@ -1,0 +1,54 @@
+/* keywords to be using: padding, border, margin -- flexbox -- justify-content */
+
+* {
+    background-color: pink;
+    color: black;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    text-align: center;
+}
+
+.blockcontainer {
+    width: 750px;
+}
+
+.row1 {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 25px;
+
+}
+
+.row2 {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 25px;
+}
+
+.row3 {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 25px;
+}
+
+img.octocat {
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
